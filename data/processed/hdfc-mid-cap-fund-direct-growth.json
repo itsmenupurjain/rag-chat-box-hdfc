@@ -1,0 +1,28 @@
+{
+  "scheme_name": "HDFC Mid Cap Fund Direct Growth",
+  "url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+  "scrape_date": "2026-05-01",
+  "data": {
+    "nav": "\u20b9219.606",
+    "nav_date": "29-Apr-2026",
+    "min_sip": "\u20b9100",
+    "min_lumpsum": "\u20b9100",
+    "aum": "\u20b985,357.92 Cr",
+    "expense_ratio": "0.73%",
+    "riskometer": "Very High",
+    "fund_manager": "Chirag Setalvad",
+    "benchmark": "NIFTY Midcap 150 Total Return Index",
+    "inception_date": "01-Jan-2013",
+    "exit_load": "Exit load of 1% if redeemed within 1 year.",
+    "category": "Equity",
+    "sub_category": "Mid Cap",
+    "crisil_rating": null,
+    "groww_rating": 5,
+    "pros": [
+      "Consistently higher annualised returns than category average for the past 1Y, 3Y, 5Y and 10Y",
+      "Lower expense ratio: 0.73%",
+      "Higher alpha: 3.85 \nThe fund has generated returns higher than benchmark - NIFTY Midcap 150 Total Return Index - in the last 3Y "
+    ],
+    "cons": []
+  }
+}

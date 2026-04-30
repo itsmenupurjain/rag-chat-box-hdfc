@@ -1,0 +1,60 @@
+{
+  "schemes": [
+    {
+      "scheme_name": "HDFC Mid-Cap Fund",
+      "amc": "HDFC Mutual Fund",
+      "category": "Mid Cap",
+      "plan_type": "Direct-Growth",
+      "risk_level": "Very High",
+      "fund_manager": "TBD",
+      "benchmark": "NIFTY Midcap 150 TRI",
+      "aum": "TBD",
+      "inception_date": "TBD"
+    },
+    {
+      "scheme_name": "HDFC Equity Fund",
+      "amc": "HDFC Mutual Fund",
+      "category": "Large Cap",
+      "plan_type": "Direct-Growth",
+      "risk_level": "Very High",
+      "fund_manager": "TBD",
+      "benchmark": "NIFTY 50 TRI",
+      "aum": "TBD",
+      "inception_date": "TBD"
+    },
+    {
+      "scheme_name": "HDFC Focused Fund",
+      "amc": "HDFC Mutual Fund",
+      "category": "Focused Fund",
+      "plan_type": "Direct-Growth",
+      "risk_level": "Very High",
+      "fund_manager": "TBD",
+      "benchmark": "NIFTY 50 TRI",
+      "aum": "TBD",
+      "inception_date": "TBD"
+    },
+    {
+      "scheme_name": "HDFC ELSS Tax Saver Fund",
+      "amc": "HDFC Mutual Fund",
+      "category": "ELSS",
+      "plan_type": "Direct-Plan-Growth",
+      "risk_level": "Very High",
+      "fund_manager": "TBD",
+      "benchmark": "NIFTY 500 TRI",
+      "lock_in_period": "3 years",
+      "aum": "TBD",
+      "inception_date": "TBD"
+    },
+    {
+      "scheme_name": "HDFC Large Cap Fund",
+      "amc": "HDFC Mutual Fund",
+      "category": "Large Cap",
+      "plan_type": "Direct-Growth",
+      "risk_level": "Very High",
+      "fund_manager": "TBD",
+      "benchmark": "NIFTY 100 TRI",
+      "aum": "TBD",
+      "inception_date": "TBD"
+    }
+  ]
+}

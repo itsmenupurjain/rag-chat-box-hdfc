@@ -1,0 +1,75 @@
+2026-04-26 00:13:04 - phase1_setup - INFO - ============================================================
+2026-04-26 00:13:04 - phase1_setup - INFO - PHASE 1: Project Setup & Data Corpus Definition
+2026-04-26 00:13:04 - phase1_setup - INFO - ============================================================
+2026-04-26 00:13:04 - phase1_setup - INFO - 
+[Step 1/4] Validating project structure...
+2026-04-26 00:13:04 - phase1_setup - INFO - Validating project structure...
+2026-04-26 00:13:04 - phase1_setup - INFO - 
+[Step 2/4] Loading configurations...
+2026-04-26 00:13:04 - phase1_setup - INFO - Loading configuration files...
+2026-04-26 00:13:04 - phase1_setup - INFO -    AMC: HDFC Mutual Fund
+2026-04-26 00:13:04 - phase1_setup - INFO -    Platform: Groww
+2026-04-26 00:13:04 - phase1_setup - INFO -    Number of schemes: 5
+2026-04-26 00:13:04 - phase1_setup - INFO -    Total schemes: 5
+2026-04-26 00:13:04 - phase1_setup - INFO - 
+[Step 3/4] Verifying URL accessibility...
+2026-04-26 00:13:04 - phase1_setup - INFO - Verifying URL accessibility...
+2026-04-26 00:13:08 - phase1_setup - INFO - 
+URL Verification Summary:
+2026-04-26 00:13:08 - phase1_setup - INFO -    Total URLs: 8
+2026-04-26 00:13:08 - phase1_setup - INFO -    Accessible: 7
+2026-04-26 00:13:08 - phase1_setup - INFO -    Failed: 1
+2026-04-26 00:13:08 - phase1_setup - WARNING - 
+Failed URLs:
+2026-04-26 00:13:08 - phase1_setup - WARNING -    - https://www.amfiindia.com/investor-awareness... (404)
+2026-04-26 00:13:08 - phase1_setup - WARNING -    You can still proceed, but data ingestion may fail for those URLs.
+2026-04-26 00:13:08 - phase1_setup - INFO - 
+[Step 4/4] Displaying corpus summary...
+2026-04-26 00:13:08 - phase1_setup - INFO - 
+============================================================
+2026-04-26 00:13:08 - phase1_setup - INFO - DATA CORPUS SUMMARY
+2026-04-26 00:13:08 - phase1_setup - INFO - ============================================================
+2026-04-26 00:13:08 - phase1_setup - INFO - 
+AMC: HDFC Mutual Fund
+2026-04-26 00:13:08 - phase1_setup - INFO - Platform: Groww
+2026-04-26 00:13:08 - phase1_setup - INFO - 
+Selected Schemes (5):
+2026-04-26 00:13:08 - phase1_setup - INFO -   1. HDFC Mid-Cap Fund
+2026-04-26 00:13:08 - phase1_setup - INFO -      Category: Mid Cap
+2026-04-26 00:13:08 - phase1_setup - INFO -      Plan: Direct-Growth
+2026-04-26 00:13:08 - phase1_setup - INFO -      Risk: Very High
+2026-04-26 00:13:08 - phase1_setup - INFO -   2. HDFC Equity Fund
+2026-04-26 00:13:08 - phase1_setup - INFO -      Category: Large Cap
+2026-04-26 00:13:08 - phase1_setup - INFO -      Plan: Direct-Growth
+2026-04-26 00:13:08 - phase1_setup - INFO -      Risk: Very High
+2026-04-26 00:13:08 - phase1_setup - INFO -   3. HDFC Focused Fund
+2026-04-26 00:13:08 - phase1_setup - INFO -      Category: Focused Fund
+2026-04-26 00:13:08 - phase1_setup - INFO -      Plan: Direct-Growth
+2026-04-26 00:13:08 - phase1_setup - INFO -      Risk: Very High
+2026-04-26 00:13:08 - phase1_setup - INFO -   4. HDFC ELSS Tax Saver Fund
+2026-04-26 00:13:08 - phase1_setup - INFO -      Category: ELSS
+2026-04-26 00:13:08 - phase1_setup - INFO -      Plan: Direct-Plan-Growth
+2026-04-26 00:13:08 - phase1_setup - INFO -      Risk: Very High
+2026-04-26 00:13:08 - phase1_setup - INFO -   5. HDFC Large Cap Fund
+2026-04-26 00:13:08 - phase1_setup - INFO -      Category: Large Cap
+2026-04-26 00:13:08 - phase1_setup - INFO -      Plan: Direct-Growth
+2026-04-26 00:13:08 - phase1_setup - INFO -      Risk: Very High
+2026-04-26 00:13:08 - phase1_setup - INFO - 
+Additional Sources:
+2026-04-26 00:13:08 - phase1_setup - INFO -   - AMFI Investor Awareness (educational)
+2026-04-26 00:13:08 - phase1_setup - INFO -   - SEBI Investor Portal (regulatory)
+2026-04-26 00:13:08 - phase1_setup - INFO -   - HDFC AMC Official (amc_official)
+2026-04-26 00:13:08 - phase1_setup - INFO - 
+Data Types: HTML web pages only (NO PDFs)
+2026-04-26 00:13:08 - phase1_setup - INFO - Total Primary URLs: 5
+2026-04-26 00:13:08 - phase1_setup - INFO - Total Reference URLs: 3
+2026-04-26 00:13:08 - phase1_setup - INFO - ============================================================
+2026-04-26 00:13:08 - phase1_setup - INFO - 
+============================================================
+2026-04-26 00:13:08 - phase1_setup - INFO - ============================================================
+2026-04-26 00:13:08 - phase1_setup - INFO - 
+Next Steps:
+2026-04-26 00:13:08 - phase1_setup - INFO -   1. Update .env file with your GROQ_API_KEY
+2026-04-26 00:13:08 - phase1_setup - INFO -   2. Move to Phase 2: Data Ingestion
+2026-04-26 00:13:08 - phase1_setup - INFO -   3. Install dependencies: pip install -r requirements.txt
+2026-04-26 00:13:08 - phase1_setup - INFO - ============================================================

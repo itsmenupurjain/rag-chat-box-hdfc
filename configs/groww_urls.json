@@ -1,0 +1,53 @@
+{
+  "amc": "HDFC Mutual Fund",
+  "platform": "Groww",
+  "schemes": [
+    {
+      "name": "HDFC Mid-Cap Fund",
+      "plan": "Direct-Growth",
+      "category": "Mid Cap",
+      "url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+    },
+    {
+      "name": "HDFC Equity Fund",
+      "plan": "Direct-Growth",
+      "category": "Large Cap",
+      "url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+    },
+    {
+      "name": "HDFC Focused Fund",
+      "plan": "Direct-Growth",
+      "category": "Focused Fund",
+      "url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth"
+    },
+    {
+      "name": "HDFC ELSS Tax Saver Fund",
+      "plan": "Direct-Plan-Growth",
+      "category": "ELSS",
+      "url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"
+    },
+    {
+      "name": "HDFC Large Cap Fund",
+      "plan": "Direct-Growth",
+      "category": "Large Cap",
+      "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+    }
+  ],
+  "additional_sources": [
+    {
+      "name": "AMFI Investor Awareness",
+      "url": "https://www.amfiindia.com/investor-awareness",
+      "type": "educational"
+    },
+    {
+      "name": "SEBI Investor Portal",
+      "url": "https://www.sebi.gov.in/investor.html",
+      "type": "regulatory"
+    },
+    {
+      "name": "HDFC AMC Official",
+      "url": "https://www.hdfcfund.com/",
+      "type": "amc_official"
+    }
+  ]
+}

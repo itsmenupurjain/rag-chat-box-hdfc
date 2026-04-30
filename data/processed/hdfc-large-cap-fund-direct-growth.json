@@ -1,0 +1,29 @@
+{
+  "scheme_name": "HDFC Large Cap Fund Direct Growth",
+  "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+  "scrape_date": "2026-05-01",
+  "data": {
+    "nav": "\u20b91194.287",
+    "nav_date": "29-Apr-2026",
+    "min_sip": "\u20b9100",
+    "min_lumpsum": "\u20b9100",
+    "aum": "\u20b935,458.50 Cr",
+    "expense_ratio": "1.04%",
+    "riskometer": "Very High",
+    "fund_manager": "Prashant Jain",
+    "benchmark": "NIFTY 100 Total Return Index",
+    "inception_date": "01-Jan-2013",
+    "exit_load": "Exit load of 1% if redeemed within 1 year",
+    "category": "Equity",
+    "sub_category": "Large Cap",
+    "crisil_rating": null,
+    "groww_rating": 5,
+    "pros": [
+      "Lower expense ratio: 1.04%",
+      "10Y annualised returns higher than category average by 0.77%"
+    ],
+    "cons": [
+      "Consistently lower annualised returns than category average for the past 1Y, 3Y and 5Y"
+    ]
+  }
+}

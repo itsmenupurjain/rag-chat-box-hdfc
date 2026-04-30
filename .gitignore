@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+logs/
+data/raw/
+.vscode/
+.idea/
+venv/
+.gemini/

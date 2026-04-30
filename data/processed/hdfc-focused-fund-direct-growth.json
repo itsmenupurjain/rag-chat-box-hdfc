@@ -1,0 +1,28 @@
+{
+  "scheme_name": "HDFC Focused Fund Direct Growth",
+  "url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+  "scrape_date": "2026-05-01",
+  "data": {
+    "nav": "\u20b9256.455",
+    "nav_date": "29-Apr-2026",
+    "min_sip": "\u20b9100",
+    "min_lumpsum": "\u20b9100",
+    "aum": "\u20b924,169.51 Cr",
+    "expense_ratio": "0.68%",
+    "riskometer": "Very High",
+    "fund_manager": "Vinay Kulkarni",
+    "benchmark": "NIFTY 500 Total Return Index",
+    "inception_date": "01-Jan-2013",
+    "exit_load": "Exit load of 1% if redeemed within 1 year",
+    "category": "Equity",
+    "sub_category": "Flexi Cap",
+    "crisil_rating": null,
+    "groww_rating": 5,
+    "pros": [
+      "Lower expense ratio: 0.68%",
+      "Consistently higher annualised returns than category average for the past 1Y, 3Y, 5Y and 10Y",
+      "Higher alpha: 5.49 \nThe fund has generated returns higher than benchmark - NIFTY 500 Total Return Index - in the last 3Y "
+    ],
+    "cons": []
+  }
+}

@@ -1,0 +1,45 @@
+2026-04-26 00:21:23 - phase3_processing - INFO - DocumentProcessor initialized
+2026-04-26 00:21:23 - phase3_processing - INFO - Chunk size: 500, overlap: 50
+2026-04-26 00:21:23 - phase3_processing - INFO - ======================================================================
+2026-04-26 00:21:23 - phase3_processing - INFO - PHASE 3: Starting Document Processing
+2026-04-26 00:21:23 - phase3_processing - INFO - ======================================================================
+2026-04-26 00:21:23 - phase3_processing - ERROR - Data file not found: c:\Users\Admin\Desktop\rag chat box\phase 3\data\processed\schemes_data.parquet
+2026-04-26 00:21:23 - phase3_processing - ERROR - Run Phase 2 first to ingest data
+2026-04-26 00:22:49 - phase3_processing - INFO - DocumentProcessor initialized
+2026-04-26 00:22:49 - phase3_processing - INFO - Chunk size: 500, overlap: 50
+2026-04-26 00:22:49 - phase3_processing - INFO - ======================================================================
+2026-04-26 00:22:49 - phase3_processing - INFO - PHASE 3: Starting Document Processing
+2026-04-26 00:22:49 - phase3_processing - INFO - ======================================================================
+2026-04-26 00:22:50 - phase3_processing - INFO - Loaded 5 schemes from processed data
+2026-04-26 00:22:50 - phase3_processing - INFO - 
+Processing: HDFC Mid-Cap Fund
+2026-04-26 00:22:50 - phase3_processing - INFO - Created 2 chunks from full text
+2026-04-26 00:22:50 - phase3_processing - INFO - Created 0 chunks from description
+2026-04-26 00:22:50 - phase3_processing - INFO - 
+Processing: HDFC Equity Fund
+2026-04-26 00:22:50 - phase3_processing - INFO - Created 2 chunks from full text
+2026-04-26 00:22:50 - phase3_processing - INFO - Created 0 chunks from description
+2026-04-26 00:22:50 - phase3_processing - INFO - 
+Processing: HDFC Focused Fund
+2026-04-26 00:22:50 - phase3_processing - INFO - Created 2 chunks from full text
+2026-04-26 00:22:50 - phase3_processing - INFO - Created 0 chunks from description
+2026-04-26 00:22:50 - phase3_processing - INFO - 
+Processing: HDFC ELSS Tax Saver Fund
+2026-04-26 00:22:50 - phase3_processing - INFO - Created 2 chunks from full text
+2026-04-26 00:22:50 - phase3_processing - INFO - Created 0 chunks from description
+2026-04-26 00:22:50 - phase3_processing - INFO - 
+Processing: HDFC Large Cap Fund
+2026-04-26 00:22:50 - phase3_processing - INFO - Created 2 chunks from full text
+2026-04-26 00:22:50 - phase3_processing - INFO - Created 0 chunks from description
+2026-04-26 00:22:50 - phase3_processing - INFO - 
+Saved 10 chunks to: c:\Users\Admin\Desktop\rag chat box\phase 3\data\processed\chunks.parquet
+2026-04-26 00:22:50 - phase3_processing - INFO - 
+======================================================================
+2026-04-26 00:22:50 - phase3_processing - INFO - PHASE 3 PROCESSING COMPLETE
+2026-04-26 00:22:50 - phase3_processing - INFO - ======================================================================
+2026-04-26 00:22:50 - phase3_processing - INFO - Total chunks created: 10
+2026-04-26 00:22:50 - phase3_processing - INFO - Chunk size: 500 words
+2026-04-26 00:22:50 - phase3_processing - INFO - Chunk overlap: 50 words
+2026-04-26 00:22:50 - phase3_processing - INFO - Average chunks per scheme: 2.0
+2026-04-26 00:22:50 - phase3_processing - INFO -    - 10 document chunks created
+2026-04-26 00:22:50 - phase3_processing - INFO -    - Saved to data/processed/chunks.parquet

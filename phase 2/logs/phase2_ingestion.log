@@ -1,0 +1,152 @@
+2026-04-26 00:20:09 - phase2_ingestion - INFO - DataIngestion initialized
+2026-04-26 00:20:09 - phase2_ingestion - INFO - Raw data directory: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw
+2026-04-26 00:20:09 - phase2_ingestion - INFO - Processed data directory: c:\Users\Admin\Desktop\rag chat box\phase 2\data\processed
+2026-04-26 00:20:09 - phase2_ingestion - INFO - ======================================================================
+2026-04-26 00:20:09 - phase2_ingestion - INFO - PHASE 2: Starting Data Ingestion
+2026-04-26 00:20:09 - phase2_ingestion - INFO - ======================================================================
+2026-04-26 00:20:09 - phase2_ingestion - INFO - 
+Processing: HDFC Mid-Cap Fund
+2026-04-26 00:20:10 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growt...
+2026-04-26 00:20:10 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_Mid-Cap_Fund.html
+2026-04-26 00:20:10 - phase2_ingestion - INFO - Parsed scheme: HDFC Mid-Cap Fund
+2026-04-26 00:20:10 - phase2_ingestion - INFO - 
+Processing: HDFC Equity Fund
+2026-04-26 00:20:11 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth...
+2026-04-26 00:20:11 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_Equity_Fund.html
+2026-04-26 00:20:11 - phase2_ingestion - INFO - Parsed scheme: HDFC Equity Fund
+2026-04-26 00:20:11 - phase2_ingestion - INFO - 
+Processing: HDFC Focused Fund
+2026-04-26 00:20:11 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-focused-fund-direct-growt...
+2026-04-26 00:20:11 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_Focused_Fund.html
+2026-04-26 00:20:11 - phase2_ingestion - INFO - Parsed scheme: HDFC Focused Fund
+2026-04-26 00:20:11 - phase2_ingestion - INFO - 
+Processing: HDFC ELSS Tax Saver Fund
+2026-04-26 00:20:17 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direc...
+2026-04-26 00:20:17 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_ELSS_Tax_Saver_Fund.html
+2026-04-26 00:20:17 - phase2_ingestion - INFO - Parsed scheme: HDFC ELSS Tax Saver Fund
+2026-04-26 00:20:17 - phase2_ingestion - INFO - 
+Processing: HDFC Large Cap Fund
+2026-04-26 00:20:17 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-gro...
+2026-04-26 00:20:17 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_Large_Cap_Fund.html
+2026-04-26 00:20:17 - phase2_ingestion - INFO - Parsed scheme: HDFC Large Cap Fund
+2026-04-26 00:20:17 - phase2_ingestion - INFO - 
+Processing reference: AMFI Investor Awareness
+2026-04-26 00:20:18 - phase2_ingestion - ERROR - Failed to fetch https://www.amfiindia.com/investor-awareness: 404 Client Error: Not Found for url: https://www.amfiindia.com/investor-awareness
+2026-04-26 00:20:18 - phase2_ingestion - INFO - 
+Processing reference: SEBI Investor Portal
+2026-04-26 00:20:18 - phase2_ingestion - INFO - Successfully fetched: https://www.sebi.gov.in/investor.html...
+2026-04-26 00:20:18 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\SEBI_Investor_Portal.html
+2026-04-26 00:20:18 - phase2_ingestion - INFO - 
+Processing reference: HDFC AMC Official
+2026-04-26 00:20:19 - phase2_ingestion - INFO - Successfully fetched: https://www.hdfcfund.com/...
+2026-04-26 00:20:19 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_AMC_Official.html
+2026-04-26 00:21:15 - phase2_ingestion - INFO - DataIngestion initialized
+2026-04-26 00:21:15 - phase2_ingestion - INFO - Raw data directory: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw
+2026-04-26 00:21:15 - phase2_ingestion - INFO - Processed data directory: c:\Users\Admin\Desktop\rag chat box\phase 2\data\processed
+2026-04-26 00:21:15 - phase2_ingestion - INFO - ======================================================================
+2026-04-26 00:21:15 - phase2_ingestion - INFO - PHASE 2: Starting Data Ingestion
+2026-04-26 00:21:15 - phase2_ingestion - INFO - ======================================================================
+2026-04-26 00:21:15 - phase2_ingestion - INFO - 
+Processing: HDFC Mid-Cap Fund
+2026-04-26 00:21:15 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growt...
+2026-04-26 00:21:15 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_Mid-Cap_Fund.html
+2026-04-26 00:21:15 - phase2_ingestion - INFO - Parsed scheme: HDFC Mid-Cap Fund
+2026-04-26 00:21:15 - phase2_ingestion - INFO - 
+Processing: HDFC Equity Fund
+2026-04-26 00:21:16 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth...
+2026-04-26 00:21:16 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_Equity_Fund.html
+2026-04-26 00:21:16 - phase2_ingestion - INFO - Parsed scheme: HDFC Equity Fund
+2026-04-26 00:21:16 - phase2_ingestion - INFO - 
+Processing: HDFC Focused Fund
+2026-04-26 00:21:17 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-focused-fund-direct-growt...
+2026-04-26 00:21:17 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_Focused_Fund.html
+2026-04-26 00:21:17 - phase2_ingestion - INFO - Parsed scheme: HDFC Focused Fund
+2026-04-26 00:21:17 - phase2_ingestion - INFO - 
+Processing: HDFC ELSS Tax Saver Fund
+2026-04-26 00:21:17 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direc...
+2026-04-26 00:21:17 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_ELSS_Tax_Saver_Fund.html
+2026-04-26 00:21:18 - phase2_ingestion - INFO - Parsed scheme: HDFC ELSS Tax Saver Fund
+2026-04-26 00:21:18 - phase2_ingestion - INFO - 
+Processing: HDFC Large Cap Fund
+2026-04-26 00:21:18 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-gro...
+2026-04-26 00:21:18 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_Large_Cap_Fund.html
+2026-04-26 00:21:18 - phase2_ingestion - INFO - Parsed scheme: HDFC Large Cap Fund
+2026-04-26 00:21:18 - phase2_ingestion - INFO - 
+Processing reference: AMFI Investor Awareness
+2026-04-26 00:21:19 - phase2_ingestion - ERROR - Failed to fetch https://www.amfiindia.com/investor-awareness: 404 Client Error: Not Found for url: https://www.amfiindia.com/investor-awareness
+2026-04-26 00:21:19 - phase2_ingestion - INFO - 
+Processing reference: SEBI Investor Portal
+2026-04-26 00:21:20 - phase2_ingestion - INFO - Successfully fetched: https://www.sebi.gov.in/investor.html...
+2026-04-26 00:21:20 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\SEBI_Investor_Portal.html
+2026-04-26 00:21:20 - phase2_ingestion - INFO - 
+Processing reference: HDFC AMC Official
+2026-04-26 00:21:21 - phase2_ingestion - INFO - Successfully fetched: https://www.hdfcfund.com/...
+2026-04-26 00:21:21 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_AMC_Official.html
+2026-04-26 00:21:21 - phase2_ingestion - INFO - 
+Saved processed data to: c:\Users\Admin\Desktop\rag chat box\phase 2\data\processed\schemes_data.parquet
+2026-04-26 00:21:21 - phase2_ingestion - INFO - 
+======================================================================
+2026-04-26 00:21:21 - phase2_ingestion - INFO - PHASE 2 INGESTION COMPLETE
+2026-04-26 00:21:21 - phase2_ingestion - INFO - ======================================================================
+2026-04-26 00:21:21 - phase2_ingestion - INFO - Total schemes: 5
+2026-04-26 00:21:21 - phase2_ingestion - INFO - Successful: 7
+2026-04-26 00:21:21 - phase2_ingestion - INFO - Failed: 1
+2026-04-26 00:21:21 - phase2_ingestion - INFO - Data saved to: c:\Users\Admin\Desktop\rag chat box\phase 2\data\processed
+2026-04-26 00:21:21 - phase2_ingestion - INFO -    - 7 sources processed
+2026-04-26 00:21:21 - phase2_ingestion - INFO -    - Check data/raw/ for HTML files
+2026-04-26 00:21:21 - phase2_ingestion - INFO -    - Check data/processed/ for parquet file
+2026-04-26 00:22:43 - phase2_ingestion - INFO - DataIngestion initialized
+2026-04-26 00:22:43 - phase2_ingestion - INFO - Raw data directory: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw
+2026-04-26 00:22:43 - phase2_ingestion - INFO - Processed data directory: c:\Users\Admin\Desktop\rag chat box\phase 2\data\processed
+2026-04-26 00:22:43 - phase2_ingestion - INFO - ======================================================================
+2026-04-26 00:22:43 - phase2_ingestion - INFO - PHASE 2: Starting Data Ingestion
+2026-04-26 00:22:43 - phase2_ingestion - INFO - ======================================================================
+2026-04-26 00:22:43 - phase2_ingestion - INFO - 
+Processing: HDFC Mid-Cap Fund
+2026-04-26 00:22:44 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growt...
+2026-04-26 00:22:44 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_Mid-Cap_Fund.html
+2026-04-26 00:22:44 - phase2_ingestion - INFO - Parsed scheme: HDFC Mid-Cap Fund
+2026-04-26 00:22:44 - phase2_ingestion - INFO - 
+Processing: HDFC Equity Fund
+2026-04-26 00:22:44 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth...
+2026-04-26 00:22:44 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_Equity_Fund.html
+2026-04-26 00:22:44 - phase2_ingestion - INFO - Parsed scheme: HDFC Equity Fund
+2026-04-26 00:22:44 - phase2_ingestion - INFO - 
+Processing: HDFC Focused Fund
+2026-04-26 00:22:45 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-focused-fund-direct-growt...
+2026-04-26 00:22:45 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_Focused_Fund.html
+2026-04-26 00:22:45 - phase2_ingestion - INFO - Parsed scheme: HDFC Focused Fund
+2026-04-26 00:22:45 - phase2_ingestion - INFO - 
+Processing: HDFC ELSS Tax Saver Fund
+2026-04-26 00:22:45 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direc...
+2026-04-26 00:22:45 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_ELSS_Tax_Saver_Fund.html
+2026-04-26 00:22:45 - phase2_ingestion - INFO - Parsed scheme: HDFC ELSS Tax Saver Fund
+2026-04-26 00:22:45 - phase2_ingestion - INFO - 
+Processing: HDFC Large Cap Fund
+2026-04-26 00:22:46 - phase2_ingestion - INFO - Successfully fetched: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-gro...
+2026-04-26 00:22:46 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_Large_Cap_Fund.html
+2026-04-26 00:22:46 - phase2_ingestion - INFO - Parsed scheme: HDFC Large Cap Fund
+2026-04-26 00:22:46 - phase2_ingestion - INFO - 
+Processing reference: AMFI Investor Awareness
+2026-04-26 00:22:47 - phase2_ingestion - ERROR - Failed to fetch https://www.amfiindia.com/investor-awareness: 404 Client Error: Not Found for url: https://www.amfiindia.com/investor-awareness
+2026-04-26 00:22:47 - phase2_ingestion - INFO - 
+Processing reference: SEBI Investor Portal
+2026-04-26 00:22:47 - phase2_ingestion - INFO - Successfully fetched: https://www.sebi.gov.in/investor.html...
+2026-04-26 00:22:47 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\SEBI_Investor_Portal.html
+2026-04-26 00:22:47 - phase2_ingestion - INFO - 
+Processing reference: HDFC AMC Official
+2026-04-26 00:22:48 - phase2_ingestion - INFO - Successfully fetched: https://www.hdfcfund.com/...
+2026-04-26 00:22:48 - phase2_ingestion - INFO - Saved raw HTML: c:\Users\Admin\Desktop\rag chat box\phase 2\data\raw\HDFC_AMC_Official.html
+2026-04-26 00:22:48 - phase2_ingestion - INFO - 
+Saved processed data to: c:\Users\Admin\Desktop\rag chat box\phase 2\data\processed\schemes_data.parquet
+2026-04-26 00:22:48 - phase2_ingestion - INFO - 
+======================================================================
+2026-04-26 00:22:48 - phase2_ingestion - INFO - PHASE 2 INGESTION COMPLETE
+2026-04-26 00:22:48 - phase2_ingestion - INFO - ======================================================================
+2026-04-26 00:22:48 - phase2_ingestion - INFO - Total schemes: 5
+2026-04-26 00:22:48 - phase2_ingestion - INFO - Successful: 7
+2026-04-26 00:22:48 - phase2_ingestion - INFO - Failed: 1
+2026-04-26 00:22:48 - phase2_ingestion - INFO - Data saved to: c:\Users\Admin\Desktop\rag chat box\phase 2\data\processed
+2026-04-26 00:22:48 - phase2_ingestion - INFO -    - 7 sources processed
+2026-04-26 00:22:48 - phase2_ingestion - INFO -    - Check data/raw/ for HTML files
+2026-04-26 00:22:48 - phase2_ingestion - INFO -    - Check data/processed/ for parquet file

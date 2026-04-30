@@ -1,0 +1,32 @@
+{
+  "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+  "url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+  "scrape_date": "2026-05-01",
+  "data": {
+    "nav": "\u20b91457.79",
+    "nav_date": "29-Apr-2026",
+    "min_sip": "\u20b9500",
+    "min_lumpsum": "\u20b9500",
+    "aum": "\u20b914,615.19 Cr",
+    "expense_ratio": "1.11%",
+    "riskometer": "Very High",
+    "fund_manager": "Vinay Kulkarni",
+    "benchmark": "NIFTY 500 Total Return Index",
+    "inception_date": "01-Jan-2013",
+    "exit_load": "Nil",
+    "category": "Equity",
+    "sub_category": "ELSS",
+    "crisil_rating": null,
+    "groww_rating": 5,
+    "pros": [
+      "Exit load is zero",
+      "Lower expense ratio: 1.11%",
+      "3Y, 5Y and 10Y annualised returns higher than category average",
+      "Higher alpha: 4.18 \nThe fund has generated returns higher than benchmark - NIFTY 500 Total Return Index - in the last 3Y "
+    ],
+    "cons": [
+      "1Y annualised returns lower than category average by 3.12%",
+      "Lock-in period: 3Y"
+    ]
+  }
+}
