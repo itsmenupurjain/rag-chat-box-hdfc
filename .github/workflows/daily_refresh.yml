@@ -13,13 +13,11 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      # actions/checkout@v4.1.7
       - name: checkout
-        uses: actions/checkout@692973e3d937129bcbf406528e2398d16f49ca8f
+        uses: actions/checkout@v4
 
-      # actions/setup-python@v5.1.0
       - name: setup-python
-        uses: actions/setup-python@f67e24827f573f74e304f14969228465eb99795b
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
