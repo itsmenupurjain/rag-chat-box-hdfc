@@ -5,9 +5,12 @@ from src.refusal_handler import RefusalHandler
 from src.logger import setup_logger
 import sys
 
-# Fix Windows console encoding
-if sys.stdout.encoding != 'utf-8':
-    sys.stdout.reconfigure(encoding='utf-8')
+# Fix Windows console encoding — safe for Linux
+try:
+    if sys.stdout and hasattr(sys.stdout, 'reconfigure') and sys.stdout.encoding != 'utf-8':
+        sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
 
 logger = setup_logger("rag_assistant", "app.log")
 

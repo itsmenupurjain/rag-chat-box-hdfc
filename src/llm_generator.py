@@ -10,9 +10,10 @@ class LLMGenerator:
     def __init__(self, model_name="llama-3.3-70b-versatile"):
         self.api_key = os.getenv("GROQ_API_KEY")
         if not self.api_key:
-            logger.error("GROQ_API_KEY not found in .env")
+            logger.error("GROQ_API_KEY not found! Set it as an environment variable.")
         
-        self.client = Groq(api_key=self.api_key)
+        # Only create client if key exists — prevents crash on startup
+        self.client = Groq(api_key=self.api_key) if self.api_key else None
         self.model_name = model_name
         
         self.system_prompt = """
@@ -34,6 +35,9 @@ RULES:
         """
         Generates a factual response using Groq and Llama 3.
         """
+        if not self.client:
+            return "Service configuration error: GROQ_API_KEY is not set. Please contact the administrator."
+        
         if not context_chunks:
             return "I'm sorry, I couldn't find any relevant factual information to answer your query."
 

@@ -5,9 +5,12 @@ from src.embedding_engine import EmbeddingEngine
 from src.vector_store import SimpleVectorStore
 from src.logger import setup_logger
 
-# Fix Windows console encoding for printing Rupee symbol etc.
-if sys.stdout.encoding != 'utf-8':
-    sys.stdout.reconfigure(encoding='utf-8')
+# Fix Windows console encoding — safe for Linux
+try:
+    if sys.stdout and hasattr(sys.stdout, 'reconfigure') and sys.stdout.encoding != 'utf-8':
+        sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
 
 logger = setup_logger("retrieval_engine", "retrieval.log")
 
