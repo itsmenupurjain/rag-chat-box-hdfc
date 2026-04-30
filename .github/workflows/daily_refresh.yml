@@ -2,10 +2,10 @@ name: Daily Data Refresh
 
 on:
   push:
-    branches: [ main ]  # Trigger on every push for easy debugging
+    branches: [ main ]
   schedule:
     - cron: '30 3 * * *' # 9:00 AM IST
-  workflow_dispatch:     # Allows manual trigger
+  workflow_dispatch:
 
 permissions:
   contents: write
