@@ -1,0 +1,45 @@
+name: Daily Data Refresh
+
+on:
+  schedule:
+    - cron: '30 3 * * *' # 9:00 AM IST
+  workflow_dispatch:
+
+permissions:
+  contents: write  # Crucial for allowing the action to push data back
+
+jobs:
+  refresh-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install requests beautifulsoup4 numpy scikit-learn python-dotenv groq pandas
+
+      - name: Run Ingestion & Indexing
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          PYTHONPATH: .
+        run: |
+          python -m src.data_ingestion
+          python -m src.index_data
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/processed/ data/vectors/
+          git commit -m "Auto-refresh: Updated Mutual Fund Data [skip ci]" || echo "No changes to commit"
+          git push
