@@ -8,9 +8,8 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  // Default to relative '/api' in production/monorepo, fallback to env variable or local port
-  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 
-    (typeof window !== 'undefined' && window.location.hostname !== 'localhost' ? '/api' : 'http://localhost:8000');
+  // API route is part of this Next.js app
+  const backendUrl = '/api';
 
   useEffect(() => {
     if (scrollRef.current) {
