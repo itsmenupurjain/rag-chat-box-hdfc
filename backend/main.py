@@ -36,6 +36,7 @@ class QueryRequest(BaseModel):
     query: str
 
 @app.post("/ask")
+@app.post("/api/ask")
 async def ask_question(request: QueryRequest):
     if not assistant:
         raise HTTPException(status_code=503, detail=f"Assistant not initialized: {startup_error}")
@@ -51,6 +52,7 @@ async def ask_question(request: QueryRequest):
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
 @app.get("/health")
+@app.get("/api/health")
 async def health_check():
     return {
         "status": "healthy" if assistant else "degraded",
@@ -59,6 +61,7 @@ async def health_check():
     }
 
 @app.get("/")
+@app.get("/api")
 async def root():
     return {"message": "HDFC RAG Backend is running", "docs": "/docs"}
 

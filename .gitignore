@@ -7,7 +7,6 @@ data/raw/
 .idea/
 venv/
 .gemini/
-frontend/
 node_modules/
 .next/
 out/
