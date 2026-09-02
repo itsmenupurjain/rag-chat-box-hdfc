@@ -51,6 +51,10 @@ function retrieveContext(query: string, k = 8) {
 }
 
 // --- LLM Generation ---
+// Models (updated Sept 2026 — llama-3.3-70b-versatile was deprecated by Groq)
+const PRIMARY_MODEL = 'qwen/qwen3.8-27b';
+const FALLBACK_MODEL = 'allam-2-7b';
+
 const SYSTEM_PROMPT = `You are a facts-only mutual fund FAQ assistant. Your role is to provide 
 accurate, verifiable information about mutual fund schemes using ONLY 
 the provided context from official sources.
@@ -62,7 +66,8 @@ RULES:
 4. Include EXACTLY ONE source citation link from the context at the end.
 5. NEVER provide investment advice, recommendations, or personal opinions.
 6. NEVER say "I recommend", "You should", "This is better", or "I think".
-7. Be concise, factual, and precise.`;
+7. Be concise, factual, and precise.
+8. Do NOT include any thinking, reasoning, or internal monologue tags in your response.`;
 
 export async function POST(request: NextRequest) {
   try {
@@ -113,20 +118,51 @@ export async function POST(request: NextRequest) {
       .map((c) => `[Source: ${c.url} | Scheme: ${c.scheme}]\n${c.content}`)
       .join('\n\n');
 
-    const completion = await groq.chat.completions.create({
-      model: 'llama-3.3-70b-versatile',
-      messages: [
-        { role: 'system', content: SYSTEM_PROMPT },
-        {
-          role: 'user',
-          content: `Context from official sources:\n${contextText}\n\nUser Query: ${query}\n\nProvide a factual response following all rules.`,
-        },
-      ],
-      temperature: 0.1,
-      max_tokens: 200,
-    });
+    const userContent = `Context from official sources:\n${contextText}\n\nUser Query: ${query}\n\nProvide a factual response following all rules.`;
 
-    let response = completion.choices[0]?.message?.content || "I'm sorry, I couldn't generate a response.";
+    // Try primary model, then fallback
+    const modelsToTry = [PRIMARY_MODEL, FALLBACK_MODEL];
+    let response = '';
+    let lastError: unknown = null;
+
+    for (const model of modelsToTry) {
+      for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+          console.log(`Calling Groq (model=${model}, attempt=${attempt}/3)`);
+          const completion = await groq.chat.completions.create({
+            model,
+            messages: [
+              { role: 'system', content: SYSTEM_PROMPT },
+              { role: 'user', content: userContent },
+            ],
+            temperature: 0.1,
+            max_tokens: 200,
+          });
+
+          response = completion.choices[0]?.message?.content || '';
+
+          // Strip <think>...</think> tags some models emit
+          if (response.includes('<think>')) {
+            response = response.replace(/<think>[\s\S]*?<\/think>/g, '').trim();
+          }
+
+          if (response) break;
+        } catch (err) {
+          lastError = err;
+          console.error(`Groq error (model=${model}, attempt=${attempt}):`, err);
+          if (attempt < 3) await new Promise((r) => setTimeout(r, 2000 * attempt));
+        }
+      }
+      if (response) break;
+    }
+
+    if (!response) {
+      console.error('All models/retries exhausted. Last error:', lastError);
+      return NextResponse.json(
+        { response: 'I encountered an error while generating the response. Please try again later.' },
+        { status: 500 }
+      );
+    }
 
     // 5. Ensure citation & footer
     const hasUrl = /https?:\/\/\S+/.test(response);
